@@ -74,12 +74,6 @@ def reason_zero_required(
         code8_reason=None):
     """
     Evaluate variables that must be explicitly coded as 0.
-
-    0     -> criterion satisfied
-    1     -> excluded according to the positive condition
-    8     -> unknown / not applicable
-    NaN   -> missing information
-    Other -> negative status cannot be confirmed
     """
 
     x = to_number(value)
