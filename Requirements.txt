@@ -1,0 +1,7 @@
+The screening code was tested with Python 3.8.
+
+Required packages:
+
+pandas
+numpy
+openpyxl
